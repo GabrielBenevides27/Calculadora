@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+ 
+    <h1>Calculadora</h1>
+
+    <input type="text" name="visor" id="visor" value="0">
+
+    <table>
+        <tr>
+            <td><button value="7" onclick="bto7(this.value)">7</button></td>
+            <td><button value="8" onclick="bto8(this.value)">8</button></td>
+            <td><button value="9" onclick="bto9(this.value)">9</button></td>
+            <td><button value="/" onclick="btodiv(this.value)">/</button></td>
+            <td><button value="c" onclick="btoc(this.value)">C</button></td>
+        </tr>
+        <tr>
+            <td><button value="4" onclick="bto4(this.value)">4</button></td>
+            <td><button value="5" onclick="bto5(this.value)">5</button></td>
+            <td><button value="6" onclick="bto6(this.value)">6</button></td>
+            <td><button value="*" onclick="btomul(this.value)">*</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><button value="1" onclick="bto1(this.value)">1</button></td>
+            <td><button value="2" onclick="bto2(this.value)">2</button></td>
+            <td><button value="3" onclick="bto3(this.value)">3</button></td>
+            <td><button value="-" onclick="btosub(this.value)">-</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button value="0" onclick="bto0(this.value)">0</button></td>
+            <td></td>
+            <td><button value="+" onclick="btoadi(this.value)">+</button></td>
+            <td><button class="gray" value="=" onclick="btoresul(this.value)">=</button></td>
+        </tr>
+    </table>
+
+</body>
+</html>
